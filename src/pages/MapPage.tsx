@@ -6,8 +6,8 @@ export default function MapPage() {
   return (
     <div>
         {/* <Map/> */}
-        <MapReact />
-        
+        {/* <MapReact /> */}
+        < SphereMap />
     </div>
   )
 }
