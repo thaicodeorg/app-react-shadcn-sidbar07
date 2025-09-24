@@ -13,6 +13,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar"
+import { Outlet } from "react-router"
 
 export default function Layout() {
   return (
@@ -48,6 +49,7 @@ export default function Layout() {
             <div className="bg-muted aspect-video rounded-xl" />
           </div>
           <div className="bg-muted min-h-[100vh] flex-1 rounded-xl md:min-h-min" >
+            <Outlet />
           </div>
           
         </div>

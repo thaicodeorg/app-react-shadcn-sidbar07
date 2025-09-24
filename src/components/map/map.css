@@ -1,0 +1,15 @@
+.map-wrap {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* Add border-radius to the wrapper */
+  border-radius: var(--radius);
+  overflow: hidden; /* This is crucial to clip the inner map */
+}
+
+.map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* No need to add radius here, as the parent will clip it */
+}
