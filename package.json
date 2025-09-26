@@ -22,6 +22,7 @@
     "@tailwindcss/vite": "^4.1.13",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "gistda-sphere-react-demo": "file:../../Downloads/gistda/gistda-sphere-react-demo/gistda-sphere-react-demo-1.0.0.tgz",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.544.0",
     "react": "^19.1.1",
